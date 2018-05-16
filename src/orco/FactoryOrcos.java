@@ -24,7 +24,7 @@ public class FactoryOrcos implements AbstractFactory {
         switch (type){
             case "hechicero":
                 return new Hechicero();
-            case "bestia mayor":
+            case "bestia":
                 return new BestiaMayor();
             case "lanzador":
                 return new Lanzador();
