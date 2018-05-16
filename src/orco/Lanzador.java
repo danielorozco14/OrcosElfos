@@ -23,7 +23,7 @@ public class Lanzador implements Orcos {
 
     @Override
     public void PelearBestia() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        
     }
 
    
