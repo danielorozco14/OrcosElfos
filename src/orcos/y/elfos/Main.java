@@ -4,7 +4,8 @@
  * and open the template in the editor.
  */
 package orcos.y.elfos;
-
+import Elfo.Elfos;
+import orco.Orcos;
 /**
  *
  * @author Daniel Alejandro Orozco Orellana <00200617@uca.edu.sv>
@@ -15,6 +16,16 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        
+        AbstractFactory factory;
+        
+        factory= FactoryProducer.getFactory("orco");
+        Orcos bestia= factory.getOrcos("bestia");
+        bestia.PelearBestia();
+        
+        
+        
+        
         
     }
     
