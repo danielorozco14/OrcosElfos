@@ -13,7 +13,7 @@ public class Arquero implements Elfos {
     
     @Override
     public void LanzarFlecha(){
-        System.out.println("*** LANZANDO FLECHA ***");
+        System.out.println("***ATAQUEEEEEEN!!(LANZANDO FLECHAS) ***");
     }
 
     @Override
