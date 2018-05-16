@@ -19,9 +19,15 @@ public class Main {
         
         AbstractFactory factory;
         
+        System.out.println("*** LOS ORCOS ATACAN CON LA BESTIA ***");
         factory= FactoryProducer.getFactory("orco");
         Orcos bestia= factory.getOrcos("bestia");
         bestia.PelearBestia();
+        
+        System.out.println("*** LOS ELFOS DESPLIEGAN A LOS ARQUEROS ***");
+        factory= FactoryProducer.getFactory("elfo");
+        Elfos arquero=factory.getElfo("arquero");
+        arquero.LanzarFlecha();
         
         
         
